@@ -1,0 +1,171 @@
+.my-tasks-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tasks-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.progress-summary {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.progress-summary h3 {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.progress-bar-background {
+  width: 100%;
+  max-width: 600px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #4caf50;
+  width: 0;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 0.5s ease;
+  border-radius: 10px 0 0 10px;
+}
+
+.tasks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.task-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.task-card h2 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.role {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.task-list li {
+  background-color: #f1f1f1;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.task-info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+
+.task-title {
+  font-size: 1rem;
+}
+
+.deadline {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.task-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  margin-bottom: 0.4rem;
+}
+
+.status {
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+  text-transform: capitalize;
+}
+
+/* Status colors */
+.status-in-progress {
+  background-color: #2196f3;
+}
+
+.status-not-started {
+  background-color: #9e9e9e;
+}
+
+.status-completed {
+  background-color: #4caf50;
+}
+
+.priority {
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+}
+
+/* Priority colors */
+.priority-high {
+  background-color: #f44336;
+}
+
+.priority-medium {
+  background-color: #ff9800;
+}
+
+.priority-low {
+  background-color: #ffeb3b;
+  color: #333;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.3;
+  margin-top: 0.3rem;
+}
