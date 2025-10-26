@@ -67,6 +67,52 @@ Built as a **static dashboard**, this platform demonstrates the structure, layou
 
 ---
 
+--> These is my projcect Structure of my all tasks that I have done in these project:
+
+├── README.md
+└── dashboard
+    ├── .gitignore
+    ├── README.md
+    ├── eslint.config.js
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── public
+        └── vite.svg
+    ├── src
+        ├── App.css
+        ├── App.jsx
+        ├── assets
+        │   └── react.svg
+        ├── components
+        │   ├── Feedback.css
+        │   ├── Feedback.jsx
+        │   ├── Home.jsx
+        │   ├── MentorChat.css
+        │   ├── MentorChat.jsx
+        │   ├── MyProjects.css
+        │   ├── MyProjects.jsx
+        │   ├── MyTasks.css
+        │   ├── MyTasks.jsx
+        │   ├── MyTeam.css
+        │   ├── MyTeam.jsx
+        │   ├── PerformanceOverview.css
+        │   ├── PerformanceOverview.jsx
+        │   ├── Presentations.css
+        │   ├── Presentations.jsx
+        │   ├── ProgressReport.css
+        │   ├── ProgressReport.jsx
+        │   ├── RecenetActivities.css
+        │   ├── RecentActivities.css
+        │   ├── RecentActivities.jsx
+        │   └── UpcomingEvents.jsx
+        ├── index.css
+        └── main.jsx
+    └── vite.config.js
+
+
+/README.md:
+
 ## **Getting Started**
 
 1. **Clone the repository:**
