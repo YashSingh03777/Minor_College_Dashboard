@@ -68,8 +68,6 @@ Built as a **static dashboard**, this platform demonstrates the structure, layou
 ---
 
 
-These is the link you can visit: https://collegedashboard-gvva.onrender.com
-
 --> These is my projcect Structure of my all tasks that I have done in these project:
 
 ├── README.md
@@ -123,6 +121,10 @@ These is the link you can visit: https://collegedashboard-gvva.onrender.com
 ```bash
 git clone https://github.com/YashSingh03777/Student-Collaboration-Dashboard.git
 ```
+
+---
+These is the link you can visit: https://collegedashboard-gvva.onrender.com
+----
 
 2. **Open the project in a browser:**
 
