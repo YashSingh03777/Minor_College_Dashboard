@@ -67,6 +67,9 @@ Built as a **static dashboard**, this platform demonstrates the structure, layou
 
 ---
 
+
+These is the link you can visit: https://collegedashboard-gvva.onrender.com
+
 --> These is my projcect Structure of my all tasks that I have done in these project:
 
 ├── README.md
